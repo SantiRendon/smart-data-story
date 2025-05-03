@@ -1,3 +1,4 @@
 .vscode
 minio-data
 poetry.lock
+gharchive_data/*
