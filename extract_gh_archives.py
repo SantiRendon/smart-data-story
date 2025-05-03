@@ -40,8 +40,9 @@ def download_gharchive_data(start_date, end_date, download_dir):
     current += timedelta(days=1)
 
 # Ejemplo de uso:
-start = datetime(2025, 1, 1)
-end = datetime(2025, 1, 3)
-download_dir = 'gharchive_data'
-download_gharchive_data(start, end, download_dir)
+if __name__ == "__main__":
+    start = datetime(2025, 1, 1)
+    end = datetime(2025, 1, 3)
+    download_dir = 'gharchive_data'
+    download_gharchive_data(start, end, download_dir)
 
