@@ -40,7 +40,7 @@ if __name__ == '__main__':
     )
     
     # Default upload directory
-    default_download_dir = "data"
+    default_download_dir = "gharchive_data"
     
     # Load files to MinIO
     load_to_minio(
